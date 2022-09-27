@@ -12,7 +12,7 @@ def heat_map_analysis(data_set: pd.DataFrame):
     corr = data_set.corr()
     print(corr)
     
-    plt.subplots(figsize=(6,6))
+    plt.subplots(figsize=(12,12))
     splot = sns.heatmap(corr, annot=True)
     sfig = splot.get_figure()
     sfig.savefig('./output/heat_map_atttribute_analysis.png', dpi = 300)
