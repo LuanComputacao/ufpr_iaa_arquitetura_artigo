@@ -1,1 +1,3 @@
-from .visualize import general_info
+from .attribute_relation_analisys import build_attibute_relations_subplot
+from .heat_map_relation_analysis import heat_map_analysis
+from .profiling import general_info, generate_profiling_report
