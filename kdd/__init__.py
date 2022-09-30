@@ -1,3 +1,2 @@
 from .attribute_relation_analisys import show_attibute_relations
 from .heat_map_relation_analysis import heat_map_analysis
-from .load_data import df_body_fat
